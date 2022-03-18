@@ -37,9 +37,9 @@ if len(ar_asset_lists) > 0 :
 BaseBP :str     = '/Game/Art/Character/Monster/CH_D_NA_Core/CH_M_NA_Core_BP'
 BaseAnimBP :str = '/Game/Art/Character/Monster/CH_D_NA_Core/CH_M_NA_Core_AnimBP'
 
-Basepath :str   = path
-assetPath :str  = Basepath + '/Animation/BlendSpace/' 
-bsNames :list   = ["IdleRun_BS_Peaceful", "IdleRun_BS_Battle", "Down_BS", "Groggy_BS", "LockOn_BS", "Airborne_BS"]
+Basepath :str    = path
+assetPath :str   = Basepath + '/Animation/BlendSpace/' 
+bsNames :list    = ["IdleRun_BS_Peaceful", "IdleRun_BS_Battle", "Down_BS", "Groggy_BS", "LockOn_BS", "Airborne_BS"]
 
 BPPath :str     = Basepath + '/Blueprints/' + name + "_Blueprint"
 AnimBPPath :str = Basepath + '/Blueprints/' + name + "_AnimBP"

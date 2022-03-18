@@ -170,5 +170,4 @@ set_blendSample_to_bs( bs_idle_down,        bs_sample_for_down)
 set_blendSample_to_bs( bs_idle_groggy,      bs_sample_for_groggy)
 set_blendSample_to_bs( bs_idle_airborne,    bs_sample_for_airborne)
 set_blendSample_to_bs( bs_idle_lockon,      bs_sample_for_lock_on)
-
 #######################################run end here#######################################
