@@ -1,12 +1,7 @@
 import unreal 
-from typing import List
+#from typing import List
 
-temp1 :object = unreal.EditorLevelLibrary.get_editor_world()
+world_setting   :object   = unreal.EditorLevelLibrary.get_editor_world().get_world_settings()
+is_HLOD_enabled :bool     = world_setting.get_editor_property('enable_hierarchical_lod_system') 
 
-
-temp2 :object = temp1.get_world_settings()
-
-temp3 :object = temp2.get_editor_property('enable_hierarchical_lod_system')
-
-
-temp2.set_editor_property('enable_hierarchical_lod_system', True)
+unreal.log_warning(is_HLOD_enabled)
